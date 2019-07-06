@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/TheQmaks/JavaInjector/blob/master/logo.png">
+</p>
+
 This tool inject your jar file and allocates object of class, which name must be written in zip comment.
 Entry point of your main-class will be constructor.
 After building you classes, you should put them into archive using WinRAR of other archivator which can change archive comment.
