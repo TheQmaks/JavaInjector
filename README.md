@@ -9,5 +9,3 @@ You should write main class in comment as single line.
 Example:
 Put class with name "Main" inside package "test", constructor will be your entry-point, e.g
 "public Main() { Your awesome code }", so you should set comment in your archive with classes to "test.Main" without quotes. 
-
-Example of a working injectable jar [here](https://github.com/TheQmaks/WurstForge-1.12.2-Injectable "here").
