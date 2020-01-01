@@ -156,7 +156,7 @@ void cheat(JNIEnv *jniEnv) {
 	jobject targetClsLoader = NULL;
 	for (int i = 0; i < count; i++) {
 		jstring itClassLoader = (jstring)jniEnv->CallObjectMethod(jniEnv->GetObjectClass(classLoaders[i]), getName);
-		if (!commentLoader ? false : jniEnv->CallBooleanMethod(commentLoader, equals, itClassLoader)) {
+		if (commentLoader && jniEnv->CallBooleanMethod(commentLoader, equals, itClassLoader)) {
 			targetClsLoader = classLoaders[i];
 			break;
 		}
