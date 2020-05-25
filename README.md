@@ -1,5 +1,10 @@
 <p align="center">
   <img src="https://github.com/TheQmaks/JavaInjector/blob/master/logo.png">
+  
+  <a href="https://github.com/TheQmaks/JavaInjector/releases">
+    <img src="https://img.shields.io/github/v/release/TheQmaks/JavaInjector?style=for-the-badge"><!--
+    --><img src="https://img.shields.io/github/downloads/TheQmaks/JavaInjector/total?style=for-the-badge">
+  </a>
 </p>
 
 This tool inject your jar file and allocates object of class, which name must be written in zip comment.
